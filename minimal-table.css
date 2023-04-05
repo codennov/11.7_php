@@ -1,0 +1,43 @@
+html {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;  
+    margin-bottom: 30px; 
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(230, 230, 230);
+}
+
+
+tr:nth-child(even) td {
+    background-color: rgb(253, 250, 250);
+}
+
+tr:nth-child(odd) td {
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+td {
+    cursor: pointer;
+}
+
+td:hover{
+     background-color: #aae0f5 !important;
+}
+
+caption {
+    font-weight: bold;
+    padding: 10px;
+}
+
